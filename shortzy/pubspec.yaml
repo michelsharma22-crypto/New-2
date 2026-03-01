@@ -1,0 +1,88 @@
+name: shortzy
+description: Production-grade Watch-to-Earn Short Video Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  firebase_analytics: ^10.8.0
+  firebase_crashlytics: ^3.4.9
+  cloud_functions: ^4.6.0
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Video & Media
+  video_player: ^2.8.1
+  chewie: ^1.7.1
+  flutter_cache_manager: ^3.3.1
+  cached_video_player_plus: ^3.0.1
+  ffmpeg_kit_flutter: ^6.0.3
+  video_compress: ^3.1.2
+  visibility_detector: ^0.4.0+2
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  
+  # Auth
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^5.0.1
+  
+  # UI
+  flutter_screenutil: ^5.9.0
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  flutter_animate: ^4.3.0
+  smooth_page_indicator: ^1.1.0
+  
+  # Navigation
+  auto_route: ^7.8.4
+  
+  # Data
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  
+  # Security
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.2.0
+  crypto: ^3.0.3
+  
+  # Network
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  
+  # Utils
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.2.0
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  auto_route_generator: ^7.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/icons/
+    - assets/images/
